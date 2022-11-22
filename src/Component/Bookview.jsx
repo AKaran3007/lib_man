@@ -12,8 +12,7 @@ function Bookview() {
     const formik = useFormik({
         initialValues: {
             Author: "",
-            RackNumber: "",
-            EntryTime:"",
+         
         },
         validate: (value) => {
             var errors = {}
@@ -21,12 +20,7 @@ function Bookview() {
             if (value.Author === "") {
                 errors.Author = "Please add Book Author"
             }
-            if (value.RackNumber === "") {
-                errors.RackNumber = "Please add Book RackNumber"
-            }
-            if (value.EntryTime === "") {
-                errors.EntryTime = "Please add Book EntryTime"
-            }
+          
 
             return errors 
         },
