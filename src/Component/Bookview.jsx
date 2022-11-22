@@ -63,9 +63,7 @@ function Bookview() {
                                             <h5 className="fw-bolder">{demo.Tittle}  value={formik.values.Tittle} onChange={formik.handleChange} name="Tittle" </h5>
                                             Author: type={"text"} value={formik.values.Author} onChange={formik.handleChange} name="Author"
                                             <br />
-                                            Rack: type={"string"} value={formik.values.RackNumber} onChange={formik.handleChange} name="RackNumber"
-                                            <br />
-                                            InwardTime: type={"time"} value={formik.values.EntryTime} onChange={formik.handleChange} name="EntryTime"
+                                           
                                         </div>
                                     </div>
                                 </div>
